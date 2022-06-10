@@ -41,7 +41,7 @@ metadata:
   name: ci-delegate
   namespace: harness-delegate-ng
 spec:
-  replicas: 2
+  replicas: 1
   podManagementPolicy: Parallel
   selector:
     matchLabels:
